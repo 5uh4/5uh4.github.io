@@ -5,6 +5,7 @@
     <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="miPaginaContacto.js"></script>
     <title>Periodico de Ceuta.</title>
 </head>
     
@@ -13,7 +14,7 @@
     <div class="contenedor">
         <figure>
         <img class="imgCeuta" src="./Imagenes/Ceuta-panoramica.jpg" alt="Imagen de Ceuta.">
-        <figcaption>El cabo de Ceuta.</figcaption>
+        <figcaption id="titulo-alt">El cabo de Ceuta.</figcaption>
     </figure>
         <h1 class="titulito">El cabo de Ceuta </div>
     </div>
@@ -35,13 +36,26 @@
     <section id="content">
         <article class="article" id="contenido-principal"></article>
        <p>
-        Puede contactar con nosotros en este número: +34 956 52 45 12. <br>
-        También puede escribirnos al correo de nuestro editor: <a href="mailto:a_suhail.matrouch.mohamed@iespablopicasso.es" Subject="Contacto%20desde%20la%20página."> a_suhail.matrouch.mohamed@iespablopicasso.es </a>
+        Puede contactar con nosotros en este número: +34 956 52 45 123. <br>
+        También puede escribirnos al correo de nuestro editor: <a id="enlace-correo" href="mailto:a_suhail.matrouch.mohamed@iespablopicasso.es" Subject="Contacto%20desde%20la%20página."> a_suhail.matrouch.mohamed@iespablopicasso.es </a>
        </p>
-       <figure><img src="./Imagenes/descarga.jfif" alt="La casa de los Dragones en Ceuta.">
-        <figcaption>La casa de los dragones.</figcaption><br>
-    </figure>
-    </section>
+       <p>En caso de desear recibir contacto desde nosotros puede acceder a <a id="enlaceAbout" href="MiPaginaAbout.html">este enlace,</a> a través del cual podemos proporcionarle información a su correo o teléfono.</p> <br>
+    </section><br>
+    <div class="slider">
+        <span id="slide-1"></span>
+        <span id="slide-2"></span>
+        <span id="slide-3"></span>
+        <div class="image-container">
+          <img src="./Imagenes/descarga.jfif" class="slide" width="500" height="300" alt="Casa de los Dragones"/>
+          <img src="./Imagenes/Ceuta-playa.jpg" class="slide" width="500" height="300" alt="Playa de Benzu, con vistas al monte de la Mujer Muerta."/>
+          <img src="./Imagenes/Ceuta-panoramica.jpg" class="slide" width="500" height="300" alt="Costa de Ceuta, foto empleada para el encabezado de nuestra página."/>
+        </div>
+        <div class="buttons">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
+      </div>
     <footer>
         <p>
         El cabo de Ceuta. Copyright by  Suhail Matrouch&copy.
