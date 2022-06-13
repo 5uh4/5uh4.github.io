@@ -2,7 +2,6 @@
 html, body {
     background-color: antiquewhite;
     scroll-behavior: smooth;
-    
     font-size: large;
 }
 *{
@@ -118,6 +117,7 @@ a, a:hover, a:focus, a:active{
     height: auto;
     width: 90%;
 }
+
 .article {
     color: beige;
     background-color: rgb(189, 197, 197);

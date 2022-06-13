@@ -133,6 +133,8 @@ footer{
 }
 #mapita{
     align-items: center;
+    width: 50%;
+    border-style: inset;
 }
 
 @media only screen and (max-width: 787px){
